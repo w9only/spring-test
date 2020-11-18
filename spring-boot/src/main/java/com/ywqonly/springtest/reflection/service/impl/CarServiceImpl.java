@@ -18,7 +18,7 @@ public class CarServiceImpl implements CarService {
 
     @Override
     public void startByVO(CarVO carVO) {
-        System.out.println("新版测试");
+        System.out.println("新版测试 222");
         System.out.println(carVO.getCarName() + "启动了,速度" + carVO.getSpeed()+",方式：对象");
     }
 
